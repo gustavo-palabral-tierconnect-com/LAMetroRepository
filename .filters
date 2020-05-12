@@ -1,8 +1,8 @@
 {
-  "code" : [ "TVMHISTORY", "LIB_UTILS" ],
-  "name" : [ "TVMHistory", "LIB_UTILS" ],
-  "description" : [ "TVMHistory", "LIB_UTILS" ],
-  "objectName" : [ "TVM History", "LIB_UTILS" ],
+  "code" : [ "TVMHISTORY", "LIB_UTILS", "DECIPHEREVENT" ],
+  "name" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent" ],
+  "description" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent" ],
+  "objectName" : [ "TVM History", "LIB_UTILS", "DecipherEvent" ],
   "source" : [ "www.vizix.io" ],
   "type" : [ "ReportDefinition", "EdgeboxRule" ],
   "tenant" : [ ">LAM" ],
