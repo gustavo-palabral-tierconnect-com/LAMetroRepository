@@ -1,13 +1,13 @@
 {
-  "code" : [ "TVMHISTORY" ],
-  "name" : [ "TVMHistory" ],
-  "description" : [ "TVMHistory" ],
-  "objectName" : [ "TVM History" ],
+  "code" : [ "TVMHISTORY", "LIB_UTILS" ],
+  "name" : [ "TVMHistory", "LIB_UTILS" ],
+  "description" : [ "TVMHistory", "LIB_UTILS" ],
+  "objectName" : [ "TVM History", "LIB_UTILS" ],
   "source" : [ "www.vizix.io" ],
-  "type" : [ "ReportDefinition" ],
+  "type" : [ "ReportDefinition", "EdgeboxRule" ],
   "tenant" : [ ">LAM" ],
-  "tags" : [ "Reports" ],
-  "objectType" : [ "tableTimeSeries" ],
+  "tags" : [ "Reports", "Rules" ],
+  "objectType" : [ "tableTimeSeries", "" ],
   "committer" : [ "root" ],
   "author" : [ "LAMroot" ]
 }
