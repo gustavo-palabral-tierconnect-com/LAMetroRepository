@@ -1,0 +1,13 @@
+{
+  "code" : [ "TVMHISTORY" ],
+  "name" : [ "TVMHistory" ],
+  "description" : [ "TVMHistory" ],
+  "objectName" : [ "TVM History" ],
+  "source" : [ "www.vizix.io" ],
+  "type" : [ "ReportDefinition" ],
+  "tenant" : [ ">LAM" ],
+  "tags" : [ "Reports" ],
+  "objectType" : [ "tableTimeSeries" ],
+  "committer" : [ "root" ],
+  "author" : [ "LAMroot" ]
+}
