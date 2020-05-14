@@ -1,0 +1,3842 @@
+{
+  "Wardlow" : {
+    "name" : "Wardlow",
+    "value" : "149",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "North Hollywood (Red)" : {
+    "name" : "North Hollywood (Red)",
+    "value" : "120",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Indiana" : {
+    "name" : "Indiana",
+    "value" : "1267",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Florence" : {
+    "name" : "Florence",
+    "value" : "143",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Willowbrook (Green)" : {
+    "name" : "Willowbrook (Green)",
+    "value" : "180",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "5th Street" : {
+    "name" : "5th Street",
+    "value" : "153",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Expo Park/USC" : {
+    "name" : "Expo Park/USC",
+    "value" : "1667",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Fillmore" : {
+    "name" : "Fillmore",
+    "value" : "164",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Valley College" : {
+    "name" : "Valley College",
+    "value" : "118",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Del Mar" : {
+    "name" : "Del Mar",
+    "value" : "165",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "LAC USC Medical Center" : {
+    "name" : "LAC USC Medical Center",
+    "value" : "1911",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Pacific Av" : {
+    "name" : "Pacific Av",
+    "value" : "156",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Sherman Way" : {
+    "name" : "Sherman Way",
+    "value" : "1708",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Canoga Ave" : {
+    "name" : "Canoga Ave",
+    "value" : "223",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "103rd St/Watts Towers" : {
+    "name" : "103rd St/Watts Towers",
+    "value" : "105",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Harbor Freeway" : {
+    "name" : "Harbor Freeway",
+    "value" : "178",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Irwindale" : {
+    "name" : "Irwindale",
+    "value" : "474",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Slauson Bus Facility-Silver" : {
+    "name" : "Slauson Bus Facility-Silver",
+    "value" : "1914",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Pacific Coast Highway" : {
+    "name" : "Pacific Coast Highway",
+    "value" : "151",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Westwood/Rancho Park" : {
+    "name" : "Westwood/Rancho Park",
+    "value" : "1874",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Azusa Downtown" : {
+    "name" : "Azusa Downtown",
+    "value" : "575",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Compton" : {
+    "name" : "Compton",
+    "value" : "146",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Wilshire/Normandie" : {
+    "name" : "Wilshire/Normandie",
+    "value" : "126",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Lincoln/Cypress" : {
+    "name" : "Lincoln/Cypress",
+    "value" : "159",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Allen" : {
+    "name" : "Allen",
+    "value" : "168",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Warner Center Transit Hub" : {
+    "name" : "Warner Center Transit Hub",
+    "value" : "107",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Douglas" : {
+    "name" : "Douglas",
+    "value" : "171",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "7th St/Metro Center (Red)" : {
+    "name" : "7th St/Metro Center (Red)",
+    "value" : "124",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Long Beach Bl" : {
+    "name" : "Long Beach Bl",
+    "value" : "181",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Roscoe" : {
+    "name" : "Roscoe",
+    "value" : "1709",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Atlantic" : {
+    "name" : "Atlantic",
+    "value" : "1264",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Manchester-Silver" : {
+    "name" : "Manchester-Silver",
+    "value" : "1915",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Expo/Crenshaw" : {
+    "name" : "Expo/Crenshaw",
+    "value" : "1670",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "7th St/Metro Center (Blue)" : {
+    "name" : "7th St/Metro Center (Blue)",
+    "value" : "136",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Van Nuys" : {
+    "name" : "Van Nuys",
+    "value" : "116",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Vermont/Athens" : {
+    "name" : "Vermont/Athens",
+    "value" : "177",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Hawthorne/Lennox" : {
+    "name" : "Hawthorne/Lennox",
+    "value" : "175",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Expo/La Brea" : {
+    "name" : "Expo/La Brea",
+    "value" : "1672",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Heritage Square" : {
+    "name" : "Heritage Square",
+    "value" : "160",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Hollywood/Vine" : {
+    "name" : "Hollywood/Vine",
+    "value" : "132",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Washington" : {
+    "name" : "Washington",
+    "value" : "140",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Memorial Park" : {
+    "name" : "Memorial Park",
+    "value" : "166",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Culver City" : {
+    "name" : "Culver City",
+    "value" : "1712",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "La Cienega/Jefferson" : {
+    "name" : "La Cienega/Jefferson",
+    "value" : "1673",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Chinatown" : {
+    "name" : "Chinatown",
+    "value" : "158",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Laurel Canyon" : {
+    "name" : "Laurel Canyon",
+    "value" : "119",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Willow St" : {
+    "name" : "Willow St",
+    "value" : "150",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Universal City" : {
+    "name" : "Universal City",
+    "value" : "134",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Pico" : {
+    "name" : "Pico",
+    "value" : "137",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Willowbrook (Blue)" : {
+    "name" : "Willowbrook (Blue)",
+    "value" : "145",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Wilshire/Vermont" : {
+    "name" : "Wilshire/Vermont",
+    "value" : "125",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "1st Street" : {
+    "name" : "1st Street",
+    "value" : "154",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Expo/Western" : {
+    "name" : "Expo/Western",
+    "value" : "1669",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Del Amo" : {
+    "name" : "Del Amo",
+    "value" : "148",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Vermont/Beverly" : {
+    "name" : "Vermont/Beverly",
+    "value" : "128",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Harbor Gateway Transit Center" : {
+    "name" : "Harbor Gateway Transit Center",
+    "value" : "1917",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "E LA Civic Center" : {
+    "name" : "E LA Civic Center",
+    "value" : "1265",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Mariachi" : {
+    "name" : "Mariachi",
+    "value" : "1269",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Slauson" : {
+    "name" : "Slauson",
+    "value" : "142",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "De Soto" : {
+    "name" : "De Soto",
+    "value" : "109",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Duarte/City of Hope" : {
+    "name" : "Duarte/City of Hope",
+    "value" : "471",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Arcadia Station" : {
+    "name" : "Arcadia Station",
+    "value" : "310",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Mariposa" : {
+    "name" : "Mariposa",
+    "value" : "173",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Artesia" : {
+    "name" : "Artesia",
+    "value" : "147",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Vermont/Santa Monica" : {
+    "name" : "Vermont/Santa Monica",
+    "value" : "129",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Avalon" : {
+    "name" : "Avalon",
+    "value" : "179",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Downtown Santa Monica" : {
+    "name" : "Downtown Santa Monica",
+    "value" : "1879",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Farmdale" : {
+    "name" : "Farmdale",
+    "value" : "1671",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "37th St/USC-Silver" : {
+    "name" : "37th St/USC-Silver",
+    "value" : "1912",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Expo/Vermont" : {
+    "name" : "Expo/Vermont",
+    "value" : "1668",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Lake" : {
+    "name" : "Lake",
+    "value" : "167",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "17th St/SMC" : {
+    "name" : "17th St/SMC",
+    "value" : "1878",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Balboa" : {
+    "name" : "Balboa",
+    "value" : "113",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Reseda" : {
+    "name" : "Reseda",
+    "value" : "112",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "APU/Citrus College" : {
+    "name" : "APU/Citrus College",
+    "value" : "1041",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Woodman" : {
+    "name" : "Woodman",
+    "value" : "117",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Civic Center" : {
+    "name" : "Civic Center",
+    "value" : "122",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Highland Park" : {
+    "name" : "Highland Park",
+    "value" : "162",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Hollywood/Western" : {
+    "name" : "Hollywood/Western",
+    "value" : "131",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Rosecrans-Silver" : {
+    "name" : "Rosecrans-Silver",
+    "value" : "1916",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Expo/Sepulveda" : {
+    "name" : "Expo/Sepulveda",
+    "value" : "1875",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Redondo Beach" : {
+    "name" : "Redondo Beach",
+    "value" : "170",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Little Tokyo" : {
+    "name" : "Little Tokyo",
+    "value" : "1271",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Aviation/LAX" : {
+    "name" : "Aviation/LAX",
+    "value" : "174",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Cal State LA" : {
+    "name" : "Cal State LA",
+    "value" : "1910",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Expo/Bundy" : {
+    "name" : "Expo/Bundy",
+    "value" : "1876",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Firestone" : {
+    "name" : "Firestone",
+    "value" : "144",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Wilshire/Western" : {
+    "name" : "Wilshire/Western",
+    "value" : "127",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "26th St/Bergamot" : {
+    "name" : "26th St/Bergamot",
+    "value" : "1877",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "El Monte Bus Facility" : {
+    "name" : "El Monte Bus Facility",
+    "value" : "1749",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Jefferson/USC" : {
+    "name" : "Jefferson/USC",
+    "value" : "1666",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "N Hollywood (Orange)" : {
+    "name" : "N Hollywood (Orange)",
+    "value" : "135",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "San Pedro St" : {
+    "name" : "San Pedro St",
+    "value" : "139",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Tampa" : {
+    "name" : "Tampa",
+    "value" : "111",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Woodley" : {
+    "name" : "Woodley",
+    "value" : "114",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Southwest Museum" : {
+    "name" : "Southwest Museum",
+    "value" : "161",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Lakewood Bl" : {
+    "name" : "Lakewood Bl",
+    "value" : "182",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Soto" : {
+    "name" : "Soto",
+    "value" : "1268",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Crenshaw" : {
+    "name" : "Crenshaw",
+    "value" : "176",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Sepulveda" : {
+    "name" : "Sepulveda",
+    "value" : "115",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Pershing Square" : {
+    "name" : "Pershing Square",
+    "value" : "123",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Anaheim St" : {
+    "name" : "Anaheim St",
+    "value" : "152",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Vermont/Sunset" : {
+    "name" : "Vermont/Sunset",
+    "value" : "130",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Chatsworth" : {
+    "name" : "Chatsworth",
+    "value" : "1711",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Pierce College" : {
+    "name" : "Pierce College",
+    "value" : "110",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Union Station (Gold)" : {
+    "name" : "Union Station (Gold)",
+    "value" : "157",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Westlake/MacArthur Park" : {
+    "name" : "Westlake/MacArthur Park",
+    "value" : "104",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "South Pasadena" : {
+    "name" : "South Pasadena",
+    "value" : "163",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Union Station (Red)" : {
+    "name" : "Union Station (Red)",
+    "value" : "121",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Maravilla" : {
+    "name" : "Maravilla",
+    "value" : "1266",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Vernon" : {
+    "name" : "Vernon",
+    "value" : "141",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "El Segundo" : {
+    "name" : "El Segundo",
+    "value" : "172",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Grand" : {
+    "name" : "Grand",
+    "value" : "138",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Nordhoff" : {
+    "name" : "Nordhoff",
+    "value" : "1710",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Norwalk" : {
+    "name" : "Norwalk",
+    "value" : "183",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Palms" : {
+    "name" : "Palms",
+    "value" : "1873",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Hollywood/Highland" : {
+    "name" : "Hollywood/Highland",
+    "value" : "133",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Pico/Aliso" : {
+    "name" : "Pico/Aliso",
+    "value" : "1270",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Sierra Madre Villa" : {
+    "name" : "Sierra Madre Villa",
+    "value" : "169",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  },
+  "Monrovia" : {
+    "name" : "Monrovia",
+    "value" : "489",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  }
+}

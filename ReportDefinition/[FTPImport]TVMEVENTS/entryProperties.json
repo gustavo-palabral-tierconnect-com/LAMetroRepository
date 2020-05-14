@@ -1,0 +1,122 @@
+{
+  "EVENT_DESCRIPTION" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "EVENT_DESCRIPTION",
+    "editInline" : true,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 1,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "EVENT_DESCRIPTION"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "TVMEVENT"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "EVENT_DESCRIPTION",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : false
+  },
+  "zone" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "zone",
+    "editInline" : true,
+    "pickList" : true,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 2,
+    "thingTypeFieldId" : {
+      "innerMethod" : "getIdByNameAndThingTypeCode",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "TVMEVENT"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "sortBy" : "",
+    "label" : "zone",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Update TVMevent"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[FTPImport]TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : false
+  }
+}
