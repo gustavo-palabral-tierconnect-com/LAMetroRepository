@@ -1,13 +1,13 @@
 {
-  "code" : [ "TVMHISTORY", "LIB_UTILS", "DECIPHEREVENT", "TVMEVENT_UPDATESTATION", "DISPATCHREMOVEASSOCIATE" ],
-  "name" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate" ],
-  "description" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate" ],
-  "objectName" : [ "TVM History", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate" ],
+  "code" : [ "TVMHISTORY", "LIB_UTILS", "DECIPHEREVENT", "TVMEVENT_UPDATESTATION", "DISPATCHREMOVEASSOCIATE", "OPENEVENTS" ],
+  "name" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate", "Open Events" ],
+  "description" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate", "Open Events" ],
+  "objectName" : [ "TVM History", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate", "Open Events" ],
   "source" : [ "www.vizix.io" ],
   "type" : [ "ReportDefinition", "EdgeboxRule" ],
   "tenant" : [ ">LAM" ],
   "tags" : [ "Reports", "Rules" ],
-  "objectType" : [ "tableTimeSeries", "" ],
+  "objectType" : [ "tableTimeSeries", "", "table" ],
   "committer" : [ "root" ],
   "author" : [ "LAMroot" ]
 }
