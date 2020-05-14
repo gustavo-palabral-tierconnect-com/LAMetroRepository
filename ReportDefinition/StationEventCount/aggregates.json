@@ -1,0 +1,32 @@
+{
+  "COUNT" : {
+    "showColumn" : true,
+    "displayOrder" : 1,
+    "aggregation" : "COUNT",
+    "label" : "COUNT",
+    "script" : null,
+    "operator" : null,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "StationEventCount"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "styleColumn" : "",
+    "propertyName" : null,
+    "fixedColumn" : true,
+    "property" : null,
+    "sortBy" : null,
+    "thingTypeFieldFilter" : null,
+    "thingType" : null,
+    "thingTypeField" : null,
+    "value" : null
+  }
+}
