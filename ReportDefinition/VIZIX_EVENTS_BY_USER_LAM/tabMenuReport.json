@@ -1,0 +1,35 @@
+{
+  "VIZIXEVENTS|VIZIX_EVENTS_BY_USER_LAM" : {
+    "appTabMenu" : {
+      "getter" : "getByCodeAndAppTab",
+      "innerClass" : "AppTabMenu",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "VIZIXEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ADMIN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "VIZIX_EVENTS_BY_USER_LAM"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "chartView" : null
+  }
+}
