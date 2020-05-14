@@ -1,0 +1,34 @@
+{
+  "Clear" : {
+    "name" : "Clear",
+    "value" : "Clear",
+    "reportEntryOptionProperty" : {
+      "innerMethod" : "getReportEntryOptionProperty",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CLEAR_EVENT_STATE"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CLEAR_EVENT_STATE"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Clear Event"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    }
+  }
+}
