@@ -1,13 +1,13 @@
 {
-  "code" : [ "TVMHISTORY", "LIB_UTILS", "DECIPHEREVENT", "TVMEVENT_UPDATESTATION", "DISPATCHREMOVEASSOCIATE", "OPENEVENTS", "StationEventCount", "StationStatus", "TVMEVENTS" ],
-  "name" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate", "Open Events", "Station Event Count", "Station Status", "TVM Events", "TVM History" ],
-  "description" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate", "Open Events", "Station Event Count", "Station Status", "TVM Events", "TVM History" ],
-  "objectName" : [ "TVM History", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate", "Open Events", "Station Event Count", "Station Status", "TVM Events" ],
+  "code" : [ "TVMHISTORY", "LIB_UTILS", "DECIPHEREVENT", "TVMEVENT_UPDATESTATION", "DISPATCHREMOVEASSOCIATE", "OPENEVENTS", "StationEventCount", "StationStatus", "TVMEVENTS", "VIZIX_EVENTS_BY_USER_LAM" ],
+  "name" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate", "Open Events", "Station Event Count", "Station Status", "TVM Events", "TVM History", "ViZix Events by User" ],
+  "description" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate", "Open Events", "Station Event Count", "Station Status", "TVM Events", "TVM History", "ViZix Events by User" ],
+  "objectName" : [ "TVM History", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate", "Open Events", "Station Event Count", "Station Status", "TVM Events", "ViZix Events by User" ],
   "source" : [ "www.vizix.io" ],
   "type" : [ "ReportDefinition", "EdgeboxRule" ],
   "tenant" : [ ">LAM" ],
   "tags" : [ "Reports", "Rules" ],
-  "objectType" : [ "tableTimeSeries", "", "table", "mapSummary", "map" ],
+  "objectType" : [ "tableTimeSeries", "", "table", "mapSummary", "map", "tableSummary" ],
   "committer" : [ "root" ],
   "author" : [ "LAMroot" ]
 }
