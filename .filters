@@ -1,7 +1,7 @@
 {
   "code" : [ "TVMHISTORY", "LIB_UTILS", "DECIPHEREVENT", "TVMEVENT_UPDATESTATION", "DISPATCHREMOVEASSOCIATE", "OPENEVENTS", "StationEventCount", "StationStatus", "TVMEVENTS" ],
-  "name" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate", "Open Events", "Station Event Count", "Station Status", "TVM Events" ],
-  "description" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate", "Open Events", "Station Event Count", "Station Status", "TVM Events" ],
+  "name" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate", "Open Events", "Station Event Count", "Station Status", "TVM Events", "TVM History" ],
+  "description" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate", "Open Events", "Station Event Count", "Station Status", "TVM Events", "TVM History" ],
   "objectName" : [ "TVM History", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate", "Open Events", "Station Event Count", "Station Status", "TVM Events" ],
   "source" : [ "www.vizix.io" ],
   "type" : [ "ReportDefinition", "EdgeboxRule" ],
