@@ -1,8 +1,8 @@
 {
-  "code" : [ "TVMHISTORY", "LIB_UTILS", "DECIPHEREVENT", "TVMEVENT_UPDATESTATION" ],
-  "name" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation" ],
-  "description" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation" ],
-  "objectName" : [ "TVM History", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation" ],
+  "code" : [ "TVMHISTORY", "LIB_UTILS", "DECIPHEREVENT", "TVMEVENT_UPDATESTATION", "DISPATCHREMOVEASSOCIATE" ],
+  "name" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate" ],
+  "description" : [ "TVMHistory", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate" ],
+  "objectName" : [ "TVM History", "LIB_UTILS", "DecipherEvent", "TVMEvent_UpdateStation", "DispatchRemoveAssociate" ],
   "source" : [ "www.vizix.io" ],
   "type" : [ "ReportDefinition", "EdgeboxRule" ],
   "tenant" : [ ">LAM" ],
