@@ -35,6 +35,63 @@
     },
     "operator" : "="
   },
+  "Dispatched Associate" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "DispatchedAssociate",
+    "editable" : true,
+    "displayOrder" : 10,
+    "label" : "Dispatched Associate",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "DispatchedAssociate"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "TVMEVENTS"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "fieldType" : 1,
+    "value" : "",
+    "operator" : "="
+  },
   "CLEAR_EVENT_STATE" : {
     "autoComplete" : false,
     "reportDefinition" : {
@@ -248,7 +305,7 @@
     },
     "propertyName" : "Priority",
     "editable" : true,
-    "displayOrder" : 10,
+    "displayOrder" : 11,
     "label" : "Priority",
     "thingType" : {
       "getter" : "getByCodeAndGroup",
@@ -469,7 +526,7 @@
     },
     "propertyName" : "EventCode",
     "editable" : true,
-    "displayOrder" : 11,
+    "displayOrder" : 12,
     "label" : "EventCode",
     "thingType" : {
       "getter" : "getByCodeAndGroup",
