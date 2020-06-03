@@ -14,7 +14,7 @@
       } ]
     },
     "propertyName" : "CLEAR_DTM",
-    "displayOrder" : 6,
+    "displayOrder" : 8,
     "showHover" : false,
     "label" : "CLEAR_DTM",
     "thingType" : {
@@ -67,7 +67,7 @@
       } ]
     },
     "propertyName" : "CLEAR_MESSAGE_ID",
-    "displayOrder" : 8,
+    "displayOrder" : 10,
     "showHover" : false,
     "label" : "CLEAR_MESSAGE_ID",
     "thingType" : {
@@ -120,7 +120,7 @@
       } ]
     },
     "propertyName" : "CLEAR_EVENT_STATE",
-    "displayOrder" : 7,
+    "displayOrder" : 9,
     "showHover" : false,
     "label" : "CLEAR_EVENT_STATE",
     "thingType" : {
@@ -173,7 +173,7 @@
       } ]
     },
     "propertyName" : "SET_MESSAGE_ID",
-    "displayOrder" : 5,
+    "displayOrder" : 7,
     "showHover" : false,
     "label" : "SET_MESSAGE_ID",
     "thingType" : {
@@ -196,6 +196,59 @@
         "getter" : "valueOf",
         "innerClass" : "String",
         "params" : "SET_MESSAGE_ID"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "TVMEVENTS"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Priority" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMHISTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "Priority",
+    "displayOrder" : 3,
+    "showHover" : false,
+    "label" : "Priority",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Priority"
       }, {
         "getter" : "getByCodeAndGroup",
         "innerClass" : "ThingType",
@@ -279,7 +332,7 @@
       } ]
     },
     "propertyName" : "source",
-    "displayOrder" : 9,
+    "displayOrder" : 11,
     "showHover" : false,
     "label" : "source",
     "thingType" : {
@@ -332,7 +385,7 @@
       } ]
     },
     "propertyName" : "SET_EVENT_STATE",
-    "displayOrder" : 4,
+    "displayOrder" : 6,
     "showHover" : false,
     "label" : "SET_EVENT_STATE",
     "thingType" : {
@@ -423,6 +476,59 @@
       } ]
     }
   },
+  "EventCode" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMHISTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "EventCode",
+    "displayOrder" : 4,
+    "showHover" : false,
+    "label" : "EventCode",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "EventCode"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "TVMEVENTS"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
   "SET_DTM" : {
     "reportDefinition" : {
       "getter" : "getByCodeAndHierarchyCode",
@@ -438,7 +544,7 @@
       } ]
     },
     "propertyName" : "SET_DTM",
-    "displayOrder" : 3,
+    "displayOrder" : 5,
     "showHover" : false,
     "label" : "SET_DTM",
     "thingType" : {
