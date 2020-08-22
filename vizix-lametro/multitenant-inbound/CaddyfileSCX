@@ -1,0 +1,221 @@
+:8081 {
+  tls off
+  gzip
+  log / stdout "{remote} - {user} [{when}] \"{method} {uri} {proto}\" {status} {size} {latency}"
+  errors stderr
+  timeouts 2h
+
+### to microservices
+
+  proxy /epcis-core dashboard-epcis-search:80 {
+    policy round_robin
+    without /epcis-core
+    transparent
+  }
+
+  proxy /configuration-dashboard configuration-dashboard:8080 {
+    policy round_robin
+    without /configuration-dashboard
+    transparent
+  }
+
+  proxy /printing-api printing-api:8080 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /printing-api/rest printing-api:8080 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /printing-dashboard printing-dashboard:8080 {
+    policy round_robin
+    without /printing-dashboard
+    transparent
+  }
+
+  proxy /serialization-api serialization-api:8080 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /api nginx-api-gateway:80 {
+    transparent
+  }
+
+  proxy /static nginx-api-gateway:80 {
+    transparent
+  }
+
+  proxy /backoffice dp-dashboard:80 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-dashboard-configuration statemachine-api-dashboard-configuration:9001 {
+    policy round_robin
+    without /statemachine-api-dashboard-configuration
+    transparent
+  }
+
+  proxy /statemachine-api-monitoring/rest monitoring-api:8080/monitoring-api {
+    policy round_robin
+    transparent
+    without /statemachine-api-monitoring
+  }
+
+###### back to transformer
+
+  proxy /epcis-core/rest internaltransformer:8080 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-configuration/rest/locations reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /product-api internaltransformer:8080 {
+    policy round_robin
+    transparent
+  }
+
+###### core default
+
+  proxy /statemachine-api-status-rest shopcx-core:8080 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-status-amqp shopcx-core:8080 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-epcis-events-input-rest shopcx-core:8080 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-messaging shopcx-core:8080 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-messaging-core shopcx-core:8080 {
+    policy round_robin
+    transparent
+  }
+
+### To aggregates endpoints
+
+  proxy /statemachine-api-aggreggates/rest dp-retroactive-event-generation:8081 {
+    without /statemachine-api-aggreggates/rest
+    policy round_robin
+    transparent
+  }
+
+### To the reverse-api-configuration nginx
+
+  proxy /statemachine-api-configuration/rest/configuration/rules/hub reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-configuration/rest/locations reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-configuration/rest/fixtures reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-configuration/rest/configuration/hub reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-configuration/rest/infra reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-configuration/rest/configuration/printer reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-configuration/rest/configuration/fixtureType reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-configuration/rest/configuration/fixture reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-configuration/rest/configuration/floorplan reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-configuration/rest/configuration/hs reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-configuration/rest/configuration/pn reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-configuration/rest/configuration/rfidprofile reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-configuration/rest/configuration/firmware reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-supervision/rest/supervision/hub reverse-proxy-devices:8081 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /statemachine-api-monitoring/rest monitoring-api:8080/monitoring-api {
+    policy round_robin
+    transparent
+    without /statemachine-api-monitoring
+  }
+
+  proxy /statemachine-api-dashboard-monitoring statemachine-api-dashboard-monitoring:9001 {
+    policy round_robin
+    transparent
+    without /statemachine-api-dashboard-monitoring
+  }
+
+  proxy /tag-management tag-management:8080 {
+    policy round_robin
+    transparent
+  }
+
+  proxy /tag-management-ws tag-management:8080 {
+    policy round_robin
+    transparent
+  }
+
+### outside services
+
+  proxy /notifications https://onesignal.com/api/v1/notifications {
+    transparent
+    without /notifications
+  }
+
+}

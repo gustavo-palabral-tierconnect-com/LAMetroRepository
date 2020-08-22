@@ -1,0 +1,55 @@
+version: "3.3"
+
+networks:
+  iot:
+    driver: overlay
+    attachable: true
+
+
+services:
+
+  haproxy:
+    image: coffeespiller/catcher:latest
+    ports:
+      - target: 5671
+        published: 5671
+        protocol: tcp
+        mode: host
+      - target: 5672
+        published: 5672
+        protocol: tcp
+        mode: host
+      - target: 5673
+        published: 5673
+        protocol: tcp
+        mode: host
+      - target: 18080
+        published: 18080
+        protocol: tcp
+        mode: host
+    environment:
+      - LISTENING_PORT=18080
+      - DESTINATION_ADDRESS=externaltransformer
+      - DESTINATION_PORT=8080
+#    healthcheck:
+#      test: ["CMD", "curl", "-f", "http://localhost:18080/configurations"]
+#      health-start-period duration: 30s
+#      interval: 50s
+#      timeout: 10s
+#      retries: 2
+#    volumes:
+#      - /data/haproxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+#      - /data/haproxy/cert.pem:/cert.pem:ro
+    networks:
+      - iot
+    deploy:
+      endpoint_mode: dnsrr
+      replicas: 1
+      placement:
+        constraints:
+          - node.labels.host == node0
+    logging:
+      driver: syslog
+      options:
+        syslog-address: udp://logs3.papertrailapp.com:44425
+        tag: haproxy

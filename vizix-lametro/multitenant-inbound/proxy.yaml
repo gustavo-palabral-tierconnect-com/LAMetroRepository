@@ -1,0 +1,52 @@
+version: "3.3"
+
+networks:
+  iot:
+    driver: overlay
+    attachable: true
+
+configs:
+  Caddyfile:
+    file: ./Caddyfile
+  bundle-ca.pem:
+    file: ./wilcard.vizix.io/bundle-ca.pem
+  key.pem:
+    file: ./wilcard.vizix.io/key.pem
+
+services:
+  proxy:
+    image: mojix/proxy:0.11.4
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+        mode: host
+      - target: 443
+        published: 443
+        protocol: tcp
+        mode: host
+      # - target: 9090
+      #   published: 9090
+      #   protocol: tcp
+      #   mode: host
+    configs:
+      - source: Caddyfile
+        target: /etc/Caddyfile
+      - source: bundle-ca.pem
+        target: /etc/bundle-ca.pem
+      - source: key.pem
+        target: /etc/key.pem
+    environment:
+      CASE_SENSITIVE_PATH: "true"
+    command: --conf /etc/Caddyfile -http2=false --agree
+    volumes:
+      - /data/caddy:/root/.caddy
+    networks:
+      - iot
+    deploy:
+      endpoint_mode: dnsrr
+      replicas: 1
+      placement:
+        constraints:
+          - node.labels.host == node0
+

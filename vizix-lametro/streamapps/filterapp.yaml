@@ -1,0 +1,32 @@
+version: "3.3"
+
+networks:
+  iot:
+    driver: overlay
+    attachable: true
+
+services:
+
+  filterapp:
+    image: mojix/riot-core-bridges:v6.72.18
+    environment:
+      SECRETS: "false"
+      MEM_XMS: 500m
+      MEM_XMX: 1000m
+      VIZIX_KAFKA_SERVERS: kafka:9092
+      JAVA_OPTS: -agentpath:/app/jprofiler/bin/linux-x64/libjprofilerti.so=nowait
+      VIZIX_BRIDGE_TYPE: filterapp
+      VIZIX_STREAMAPP_THREAD_COUNT: 2
+      VIZIX_CRITICAL_MEMORY_THRESHOLD: 50
+      VIZIX_WARNING_MEMORY_THRESHOLD: 100
+    networks:
+      - iot
+    deploy:
+      endpoint_mode: dnsrr
+      replicas: 1
+      placement:
+        constraints:
+          - node.labels.host == node0
+      resources:
+        limits:
+          memory: 1100m

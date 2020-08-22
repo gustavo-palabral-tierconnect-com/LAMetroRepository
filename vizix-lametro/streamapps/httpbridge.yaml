@@ -1,0 +1,24 @@
+version: "3.3"
+
+networks:
+  iot:
+    driver: overlay
+    attachable: true
+
+services:
+
+  hbridge:
+    image: mojix/riot-core-bridges:v6.72.18
+    environment:
+      VIZIX_BRIDGE_TYPE: httpbridge
+      VIZIX_KAFKA_SERVERS: kafka:9092
+      VIZIX_KAFKA_MAX_REQUEST_SIZE: 90000000
+      VIZIX_KAFKA_BUFFER_MEMORY: 90000000
+    networks:
+      - iot
+    deploy:
+      endpoint_mode: dnsrr
+      replicas: 1
+      placement:
+        constraints:
+          - node.labels.host == node0

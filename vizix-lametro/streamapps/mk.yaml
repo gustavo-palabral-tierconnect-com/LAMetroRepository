@@ -1,0 +1,38 @@
+version: "3.3"
+
+networks:
+  iot:
+    driver: overlay
+    attachable: true
+
+services:
+
+  m2k:
+    image: mojix/riot-core-bridges:v6.72.18
+    environment:
+      VIZIX_BRIDGE_TYPE: m2kbridge
+      VIZIX_KAFKA_SERVERS: kafka:9092
+      VIZIX_MQTTHOST: mqtt
+    networks:
+      - iot
+    deploy:
+      endpoint_mode: dnsrr
+      replicas: 1
+      placement:
+        constraints:
+          - node.hostname == node0
+
+  k2m:
+    image: mojix/riot-core-bridges:v6.72.18
+    environment:
+      VIZIX_BRIDGE_TYPE: k2mbridge
+      VIZIX_KAFKA_SERVERS: kafka:9092
+      VIZIX_MQTTHOST: mqtt
+    networks:
+      - iot
+    deploy:
+      endpoint_mode: dnsrr
+      replicas: 1
+      placement:
+        constraints:
+          - node.hostname == node0

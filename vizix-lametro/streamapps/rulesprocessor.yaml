@@ -1,0 +1,34 @@
+version: "3.3"
+
+networks:
+  iot:
+    driver: overlay
+    attachable: true
+
+services:
+
+  rulesprocessor:
+    image: mojix/riot-core-bridges:v6.72.18
+    environment:
+      MEM_XMS: 4g
+      MEM_XMX: 4g
+      VIZIX_ESPER: 'no'
+      VIZIX_BRIDGE_TYPE: rulesprocessor
+      VIZIX_KAFKA_CODE: RulesProcessor
+      VIZIX_KAFKA_SERVERS: kafka:9092
+      VIZIX_LOG_LEVEL: 'INFO'
+      VIZIX_THING_CACHE_SIZE: 2000000
+      VIZIX_THING_CACHE_EVICTION_TIME: 28800
+      VIZIX_KAFKA_CACHE_TICKLE_MODE: 'MONGO_INJECTOR'
+      VIZIX_STREAM_REAL_TIME_LINGER_MS: 0
+      VIZIX_STREAM_REAL_TIME_BATCH_SIZE: 8192
+      VIZIX_STREAM_REAL_TIME_MAX_POLL_RECORDS: 10
+      VIZIX_EVENT_GENERATOR_ACTIVE: "false"
+    networks:
+      - iot
+    deploy:
+      endpoint_mode: dnsrr
+      replicas: 1
+      placement:
+        constraints:
+          - node.labels.host == node0

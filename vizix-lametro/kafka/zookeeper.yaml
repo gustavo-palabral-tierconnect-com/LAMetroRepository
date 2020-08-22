@@ -1,0 +1,25 @@
+version: "3.3"
+
+networks:
+  iot:
+    driver: overlay
+    attachable: true
+
+services:
+  zookeeper:
+    image: zookeeper:3.4.12
+    ports:
+      - target: 2181
+        published: 2181
+        protocol: tcp
+        mode: host
+    networks:
+      - iot
+    volumes:
+      - /data/zookeeper/data:/data
+      - /data/zookeeper/datalog:/datalog
+    deploy:
+      endpoint_mode: dnsrr
+      placement:
+        constraints:
+          - node.labels.host == node0

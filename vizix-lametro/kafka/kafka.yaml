@@ -1,0 +1,37 @@
+version: "3.3"
+
+networks:
+  iot:
+    driver: overlay
+    attachable: true
+
+services:
+
+  kafka:
+    image: mojix/kafka:v2.3.0
+    environment:
+      KAFKA_MAX_MEMORY: 4g
+      KAFKA_MIN_MEMORY: 2g
+      KAFKA_PARAM_BROKER_ID: 1
+      KAFKA_PARAM_ADVERTISED_HOST_NAME: kafka:9092
+      KAFKA_PARAM_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_PARAM_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_PARAM_LOG_RETENTION_HOURS: 3
+      KAFKA_PARAM_MAX_REQUEST_SIZE: 6645004
+      KAFKA_PARAM_LOG_RETENTION_BYTES: 268435456000
+    volumes:
+      - /data/kafka:/data
+    networks:
+      - iot
+    ports:
+      - target: 9092
+        published: 9092
+        protocol: tcp
+        mode: host
+    deploy:
+      endpoint_mode: dnsrr
+      placement:
+        constraints:
+          - node.labels.host == node0
+
+        

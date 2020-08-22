@@ -1,0 +1,22 @@
+version: "3.3"
+
+networks:
+  iot:
+    driver: overlay
+    attachable: true
+
+services:
+  ui:
+    image: mojix/riot-core-ui:v6.72.18
+    environment:
+      VIZIX_API_HOST: lametro.vizix.io
+      VIZIX_API_SECURE: 1
+      VIZIX_OVERRIDE_VERSION_LABEL: "v6.72.18"
+    networks:
+      - iot
+    healthcheck:
+      disable: true
+    deploy:
+      placement:
+        constraints:
+          - node.labels.host == node0
