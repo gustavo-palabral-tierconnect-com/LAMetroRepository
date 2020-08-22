@@ -1,0 +1,75 @@
+version: "3.3"
+
+networks:
+  iot:
+    driver: overlay
+    attachable: true
+
+services:
+  tools:
+    image: mojix/vizix-tools:v6.72.18
+    command: configure
+    volumes:
+      - /data/riot-core-sysconfig:/data/sysconfig
+      - /data/services/data:/data
+    networks:
+      - iot
+    deploy:
+      restart_policy:
+        condition: "none"
+      placement:
+        constraints:
+          - node.labels.host == node0
+    environment:
+      # Regenerate cubes.
+      VIZIX_REPORTGENERATOR_RUN_MIGRATION: "false"
+      # Load new sysconfig to tenant RED.
+      VIZIX_SYSCONFIG: "true"
+      VIZIX_SYSCONFIG_OPTION: "platform"
+      VIZIX_SYSCONFIG_TENANT_CODE: "LAMETRO"
+      VIZIX_SYSCONFIG_TENANT_NAME: "LAM"
+      VIZIX_SYSCONFIG_CREATE_TENANT: "true"
+      VIZIX_SYSCONFIG_CREATE_THINGS: "true"
+      VIZIX_SYSCONFIG_HIERARCHY: ">LAM"
+      VIZIX_SYSCONFIG_CLEAN: "true"
+
+      # Kafka.
+      VIZIX_KAFKA_SERVERS: "kafka:9092"
+      VIZIX_KAFKA_ZOOKEEPER: "zookeeper:2181"
+      VIZIX_KAFKA_DATA_PARTITIONS: "12"
+      VIZIX_KAFKA_CREATE_TOPICS: "true"
+      VIZIX_KAFKA_LOAD_CACHE: "true"   
+      VIZIX_SITE_CONFIG: "true"
+      VIZIX_KAFKA_DATA_RETENTION_UPDATER: "true"
+      VIZIX_KAFKA_DESCRIBE_TOPICS: "true"
+      VIZIX_KAFKA_DATA_RETENTION_BYTES: "1073741824"
+      VIZIX_KAFKA_DATA_RETENTION_HOURS: "2"
+      VIZIX_KAFKA_DATA_REPLICA_FACTOR: "1"
+
+      # Mongodb.
+      VIZIX_MONGO_PRIMARY: "mongo:27017"
+      VIZIX_MONGO_AUTHDB: "admin"
+      VIZIX_MONGO_DB: "viz_root"
+      VIZIX_MONGO_USERNAME: "admin"
+      VIZIX_MONGO_PASSWORD: "mutton_vitrify_brother_detain"
+
+      # MQTT.
+      VIZIX_MQTT_HOST: "mqtt"
+      VIZIX_MQTT_PORT: "1883"
+      
+      # Mysql.
+      VIZIX_DB_DRIVER: "com.mysql.jdbc.Driver"
+      VIZIX_DB_DIALECT: "org.hibernate.dialect.MySQLDialect" 
+      VIZIX_DB_DATABASE: "riot_main"
+      VIZIX_DB_PASSWORD: "wildfowl_crib_sidearm"
+      VIZIX_CONNECTION_URL: "jdbc:mysql://mysql:3306/riot_main?useSSL=false"
+      VIZIX_API_PORT: "8080"
+      VIZIX_API_HOST: "services"
+      VIZIX_API_KEY: "7B4BCCDC"
+      VIZIX_API_PATH: "/riot-core-services"
+      VIZIX_AUTHENTICATION_MODE: "nativeAuthentication"
+
+      # Hazelcast.
+      VIZIX_HAZELCAST_DISTRIBUTED_ENABLE: "false"
+#      VIZIX_HAZELCAST_NATIVE_CLIENT_ADDRESS: "hazelcast"
+

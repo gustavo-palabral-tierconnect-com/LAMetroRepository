@@ -1,0 +1,39 @@
+version: "3.3"
+
+networks:
+  iot:
+    driver: overlay
+    attachable: true
+
+services:
+
+  mongoinjector:
+    image: mojix/riot-core-bridges:v6.72.18
+    environment:
+      MEM_XMS: 2g
+      MEM_XMX: 4g
+      VIZIX_CORE_CODE: MongoInjector
+      VIZIX_BRIDGE_TYPE: mongoingestor
+      VIZIX_MONGO_WRITE_CONCERN: ACKNOWLEDGED
+      VIZIX_KAFKA_SERVERS: kafka:9092
+      VIZIX_STREAM_REAL_TIME_LINGER_MS: 0
+      VIZIX_STREAM_REAL_TIME_BATCH_SIZE: 8192
+      VIZIX_STREAM_REAL_TIME_MAX_POLL_RECORDS: 10
+      VIZIX_KAFKA_DISABLE_REBLINK: "true"
+#      JAVA_OPTS: "-agentpath:/app/jprofiler/bin/linux-x64/libjprofilerti.so=nowait"
+    ports:
+      - target: 8849
+        published: 8849
+        protocol: tcp
+        mode: host
+    networks:
+      - iot
+    deploy:
+      resources:
+        limits:
+          memory: 5g
+      endpoint_mode: dnsrr
+      replicas: 1
+      placement:
+        constraints:
+          - node.labels.host == node0

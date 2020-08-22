@@ -1,0 +1,40 @@
+version: "3.3"
+
+networks:
+  iot:
+    driver: overlay
+    attachable: true
+
+services:
+  reports:
+    image: mojix/riot-core-reports:v6.72.18
+    environment:
+      SECRETS: "false"
+      MEM_XMS: 3g
+      MEM_XMX: 3g
+      VIZIX_MONGO_PRIMARY: mongo:27017
+      VIZIX_MONGO_DB: viz_root
+      VIZIX_MONGO_USERNAME: admin
+      VIZIX_MONGO_PASSWORD: mutton_vitrify_brother_detain
+      VIZIX_MQTT_HOST: mqtt
+      VIZIX_CONNECTION_URL: jdbc:mysql://mysql:3306/riot_main?useSSL=false&amp;autoReconnect=true&amp;autoReconnectForPools=true&amp;autoSlowLog=false&amp;dumpQueriesOnException=false&amp;explainSlowQueries=false&amp;includeInnodbStatusInDeadlockExceptions=true&amp;includeThreadDumpInDeadlockExceptions=true&amp;logSlowQueries=true
+      VIZIX_DB_SCHEMA: riot_main
+      VIZIX_DB_DRIVER: com.mysql.jdbc.Driver
+      VIZIX_DB_DIALECT: org.hibernate.dialect.MySQLDialect
+      VIZIX_DB_PASSWORD: wildfowl_crib_sidearm
+      VIZIX_HAZELCAST_DISTRIBUTED_ENABLE: "false"
+      VIZIX_AUTHENTICATION_MODE: nativeAuthentication
+      VIZIX_BROKER_CONNECTION_WAIT: "false"
+      VIZIX_KAFKA_ENABLED: "true"
+      VIZIX_KAFKA_ZOOKEEPER: zookeeper:2181
+      VIZIX_KAFKA_SERVERS: kafka:9092
+    networks:
+      - iot
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.labels.host == node0
+      resources:
+        limits:
+          memory: 5G

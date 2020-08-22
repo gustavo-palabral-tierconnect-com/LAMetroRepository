@@ -1,0 +1,28 @@
+version: "3.3"
+
+networks:
+  iot:
+    driver: overlay
+    attachable: true
+
+services:
+  epcis-event-generator:
+    image: mojix/vizix-epcis-event-generator:v6.72.18
+    environment:
+      MEM_XMS: 1024m
+      MEM_XMX: 1024m
+      VIZIX_KAFKA_SERVERS: "kafka:9092"
+      VIZIX_SERVER_ADDRESS: "http://proxy"
+      VIZIX_APIKEY_NAMES: "apikey,api_key"
+      VIZIX_APIKEY_VALUE: "HWZJX8IMGS"
+      VIZIX_KAFKA_MAX_POLL_RECORDS: "512"
+      VIZIX_KAFKA_MAX_POLL_INTERVAL_MS: "5000"
+      VIZIX_KAFKA_ENABLE_AUTOCOMMIT: "true"
+      VIZIX_KAFKA_GROUP_ID: "epcis_event_generator"
+      LOG_LEVEL: "INFO"
+    networks:
+      - iot
+    deploy:
+      placement:
+        constraints:
+          - node.labels.host == node0
