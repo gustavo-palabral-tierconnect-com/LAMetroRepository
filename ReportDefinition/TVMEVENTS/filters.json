@@ -1,97 +1,4 @@
 {
-  "Thing Type" : {
-    "autoComplete" : false,
-    "reportDefinition" : {
-      "getter" : "getByCodeAndHierarchyCode",
-      "innerClass" : "ReportDefinition",
-      "params" : [ {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "TVMEVENTS"
-      }, {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "${tenant.hierarchyCode}"
-      } ]
-    },
-    "propertyName" : "thingType.id",
-    "editable" : false,
-    "displayOrder" : 2,
-    "label" : "Thing Type",
-    "thingType" : null,
-    "thingTypeField" : null,
-    "fieldType" : 0,
-    "value" : {
-      "innerMethod" : "getThingTypeId",
-      "params" : [ {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "TVMEVENTS"
-      }, {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "${tenant.hierarchyCode}"
-      } ]
-    },
-    "operator" : "="
-  },
-  "Dispatched Associate" : {
-    "autoComplete" : false,
-    "reportDefinition" : {
-      "getter" : "getByCodeAndHierarchyCode",
-      "innerClass" : "ReportDefinition",
-      "params" : [ {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "TVMEVENTS"
-      }, {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "${tenant.hierarchyCode}"
-      } ]
-    },
-    "propertyName" : "DispatchedAssociate",
-    "editable" : true,
-    "displayOrder" : 10,
-    "label" : "Dispatched Associate",
-    "thingType" : {
-      "getter" : "getByCodeAndGroup",
-      "innerClass" : "ThingType",
-      "params" : [ {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "TVMEVENTS"
-      }, {
-        "getter" : "getByHierarchyCode",
-        "innerClass" : "Group",
-        "params" : "${tenant.hierarchyCode}"
-      } ]
-    },
-    "thingTypeField" : {
-      "getter" : "getByNameAndThingType",
-      "innerClass" : "ThingTypeField",
-      "params" : [ {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "DispatchedAssociate"
-      }, {
-        "getter" : "getByCodeAndGroup",
-        "innerClass" : "ThingType",
-        "params" : [ {
-          "getter" : "valueOf",
-          "innerClass" : "String",
-          "params" : "TVMEVENTS"
-        }, {
-          "getter" : "getByHierarchyCode",
-          "innerClass" : "Group",
-          "params" : "${tenant.hierarchyCode}"
-        } ]
-      } ]
-    },
-    "fieldType" : 1,
-    "value" : "",
-    "operator" : "="
-  },
   "CLEAR_EVENT_STATE" : {
     "autoComplete" : false,
     "reportDefinition" : {
@@ -204,31 +111,6 @@
     },
     "fieldType" : 1,
     "value" : "",
-    "operator" : "="
-  },
-  "Thing Facility Map" : {
-    "autoComplete" : false,
-    "reportDefinition" : {
-      "getter" : "getByCodeAndHierarchyCode",
-      "innerClass" : "ReportDefinition",
-      "params" : [ {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "TVMEVENTS"
-      }, {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "${tenant.hierarchyCode}"
-      } ]
-    },
-    "propertyName" : "visibility.facilityMap",
-    "editable" : false,
-    "displayOrder" : 4,
-    "label" : "Thing Facility Map",
-    "thingType" : null,
-    "thingTypeField" : null,
-    "fieldType" : 0,
-    "value" : "false",
     "operator" : "="
   },
   "DeviceID" : {
@@ -345,6 +227,63 @@
     "value" : "",
     "operator" : "="
   },
+  "Employee ID" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "CLEAR_EMPLOYEE_IDENT",
+    "editable" : true,
+    "displayOrder" : 15,
+    "label" : "Employee ID",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "CLEAR_EMPLOYEE_IDENT"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "TVMEVENTS"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "fieldType" : 1,
+    "value" : "",
+    "operator" : "="
+  },
   "Thing Owner Group" : {
     "autoComplete" : false,
     "reportDefinition" : {
@@ -368,63 +307,6 @@
     "thingTypeField" : null,
     "fieldType" : 0,
     "value" : "true",
-    "operator" : "="
-  },
-  "SET_EVENT_STATE" : {
-    "autoComplete" : false,
-    "reportDefinition" : {
-      "getter" : "getByCodeAndHierarchyCode",
-      "innerClass" : "ReportDefinition",
-      "params" : [ {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "TVMEVENTS"
-      }, {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "${tenant.hierarchyCode}"
-      } ]
-    },
-    "propertyName" : "SET_EVENT_STATE",
-    "editable" : true,
-    "displayOrder" : 7,
-    "label" : "SET_EVENT_STATE",
-    "thingType" : {
-      "getter" : "getByCodeAndGroup",
-      "innerClass" : "ThingType",
-      "params" : [ {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "TVMEVENTS"
-      }, {
-        "getter" : "getByHierarchyCode",
-        "innerClass" : "Group",
-        "params" : "${tenant.hierarchyCode}"
-      } ]
-    },
-    "thingTypeField" : {
-      "getter" : "getByNameAndThingType",
-      "innerClass" : "ThingTypeField",
-      "params" : [ {
-        "getter" : "valueOf",
-        "innerClass" : "String",
-        "params" : "SET_EVENT_STATE"
-      }, {
-        "getter" : "getByCodeAndGroup",
-        "innerClass" : "ThingType",
-        "params" : [ {
-          "getter" : "valueOf",
-          "innerClass" : "String",
-          "params" : "TVMEVENTS"
-        }, {
-          "getter" : "getByHierarchyCode",
-          "innerClass" : "Group",
-          "params" : "${tenant.hierarchyCode}"
-        } ]
-      } ]
-    },
-    "fieldType" : 1,
-    "value" : "",
     "operator" : "="
   },
   "StationID" : {
@@ -565,5 +447,294 @@
     "fieldType" : 1,
     "value" : "",
     "operator" : "="
+  },
+  "Thing Type" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "thingType.id",
+    "editable" : false,
+    "displayOrder" : 2,
+    "label" : "Thing Type",
+    "thingType" : null,
+    "thingTypeField" : null,
+    "fieldType" : 0,
+    "value" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "operator" : "="
+  },
+  "Dispatched Associate" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "DispatchedAssociate",
+    "editable" : true,
+    "displayOrder" : 10,
+    "label" : "Dispatched Associate",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "DispatchedAssociate"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "TVMEVENTS"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "fieldType" : 1,
+    "value" : "",
+    "operator" : "="
+  },
+  "Thing Facility Map" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "visibility.facilityMap",
+    "editable" : false,
+    "displayOrder" : 4,
+    "label" : "Thing Facility Map",
+    "thingType" : null,
+    "thingTypeField" : null,
+    "fieldType" : 0,
+    "value" : "false",
+    "operator" : "="
+  },
+  "zone" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "zone",
+    "editable" : true,
+    "displayOrder" : 13,
+    "label" : "zone",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "zone"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "TVMEVENTS"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "fieldType" : 9,
+    "value" : "",
+    "operator" : "~"
+  },
+  "SET_EVENT_STATE" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "SET_EVENT_STATE",
+    "editable" : true,
+    "displayOrder" : 7,
+    "label" : "SET_EVENT_STATE",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "SET_EVENT_STATE"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "TVMEVENTS"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "fieldType" : 1,
+    "value" : "",
+    "operator" : "="
+  },
+  "Processed Time" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "lastDetectTime",
+    "editable" : true,
+    "displayOrder" : 14,
+    "label" : "Processed Time",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "TVMEVENTS"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "lastDetectTime"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "TVMEVENTS"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    },
+    "fieldType" : 24,
+    "value" : "{\"relativeDate\":\"NOW\"}",
+    "operator" : "NOW"
   }
 }
