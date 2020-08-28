@@ -1,0 +1,32 @@
+Thing Type Code,Thing Serial,Thing Name,Owner Group,Alias Config,Description,ComponentDescription,Priority,Impact
+EVENTCODES,106,106,>LAM,,Employee Logon / Logoff,Device Level,0,
+EVENTCODES,108,108,>LAM,,Maintenance Door Open / Closed,Device Level,0,
+EVENTCODES,140,140,>LAM,,In Service,Device Level,0,
+EVENTCODES,204,204,>LAM,,CSC Ticket Magazine Out,Smart Card Module,2,Degraded
+EVENTCODES,212,212,>LAM,,CSC Bin Full,Smart Card Module,2,Degraded
+EVENTCODES,304,304,>LAM,,Ticket Roll Out,Magnetic Ticket Module,2,no impact
+EVENTCODES,317,317,>LAM,,Capture Bin Full,Magnetic Ticket Module,2,no impact
+EVENTCODES,405,405,>LAM,,Billbox Almost Full,Bill System,3,Attention
+EVENTCODES,406,406,>LAM,,Billbox Full,Bill System,2,Degraded
+EVENTCODES,407,407,>LAM,,Billbox Removed / Inserted,Bill System,1,OOS
+EVENTCODES,410,410,>LAM,,Bills Not Accepted,Bill System,1,OOS
+EVENTCODES,501,501,>LAM,,Coin Hopper Low,Coin System,3,Attention
+EVENTCODES,502,502,>LAM,,Coin Hopper Out,Coin System,2,Degraded
+EVENTCODES,503,503,>LAM,,Coin Hopper Removed / Inserted,Coin System,1,OOS
+EVENTCODES,504,504,>LAM,,Coin Tubes Jam,Coin System,2,Degraded
+EVENTCODES,505,505,>LAM,,Coin Tubes Low,Coin System,3,Attention
+EVENTCODES,506,506,>LAM,,Coin Tubes Out,Coin System,2,Degraded
+EVENTCODES,507,507,>LAM,,Coin Cassette (Tubes) Removed / Inserted,Coin System,1,OOS
+EVENTCODES,512,512,>LAM,,Coinbox Almost Full,Coin System,3,Attention
+EVENTCODES,513,513,>LAM,,Coinbox Full,Coin System,2,Degraded
+EVENTCODES,514,514,>LAM,,Coinbox Security Door Opened / Closed,Coin System,1,OOS
+EVENTCODES,516,516,>LAM,,Coinbox Removed / Inserted,Coin System,1,OOS
+EVENTCODES,518,518,>LAM,,Not Enough Money to Give Change,Coin System,3,Attention
+EVENTCODES,532,532,>LAM,,Coin Hopper Jam,Coin System,2,Degraded
+EVENTCODES,533,533,>LAM,,Coin Hopper Inoperative,Coin System,2,Degraded
+EVENTCODES,534,534,>LAM,,Coins Not Accepted,Coin System,2,Degraded
+EVENTCODES,536,536,>LAM,,Coin Cashbox Invalid,Coin System,1,OOS
+EVENTCODES,542,542,>LAM,,Unauthorized Re-circulating Coin Door Access,Coin System,1,OOS
+EVENTCODES,901,901,>LAM,,Paper Low,Receipt Printer,3,Attention
+EVENTCODES,902,902,>LAM,,Paper Out,Receipt Printer,2,Degraded
+EVENTCODES,903,903,>LAM,,Paper Jam,Receipt Printer,2,Degraded

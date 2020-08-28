@@ -1,0 +1,185 @@
+Group,Code,Name,Description,Group Type Ceiling,Resource Label,Resource Permissions
+">LAM",ADMIN,Admin,,,>>Analytics>>Data Entry,rx
+">LAM",ADMIN,Admin,,,>>Analytics>>Data Entry>>Data Entry Instances,x
+">LAM",ADMIN,Admin,,,">>Analytics>>Data Entry>>Data Entry Instances>>Data Entry : ""Assign/Unassign  Associate""",rud
+">LAM",ADMIN,Admin,,,">>Analytics>>Data Entry>>Data Entry Instances>>Data Entry : ""Assign/Unassign  Associate""",rud
+">LAM",ADMIN,Admin,,,">>Analytics>>Data Entry>>Data Entry Instances>>Data Entry : ""Clear Event""",rud
+">LAM",ADMIN,Admin,,,">>Analytics>>Data Entry>>Data Entry Instances>>Data Entry : ""Update TVMevent""",rud
+">LAM",ADMIN,Admin,,,>>Analytics>>Reports>>Report Instances,x
+">LAM",ADMIN,Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> Map -> ""Station Status""",r
+">LAM",ADMIN,Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> Map Summary -> ""Station Event Count""",r
+">LAM",ADMIN,Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> Table -> ""Open Events""",r
+">LAM",ADMIN,Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> Table -> ""TVM Events""",r
+">LAM",ADMIN,Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> Table Summary -> ""ViZix Events by User Time""",r
+">LAM",ADMIN,Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> Table Summary -> ""ViZix Events by User""",r
+">LAM",ADMIN,Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> Table Time Series -> ""TVM History""",r
+">LAM",ADMIN,Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> Table Time Series -> ""ViZix Events""",r
+">LAM",ADMIN,Admin,,,>>App Tabs,rx
+">LAM",ADMIN,Admin,,,>>App Tabs>>Admin Tab,x
+">LAM",ADMIN,Admin,,,>>App Tabs>>Admin Tab>>ViZix Events Menu,x
+">LAM",ADMIN,Admin,,,>>App Tabs>>Track Tab,x
+">LAM",ADMIN,Admin,,,>>App Tabs>>Track Tab>>Operations Menu,x
+">LAM",ADMIN,Admin,,,>>Things>>Thing Types>>Thing Type Instances,x
+">LAM",ADMIN,Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: EventCodes,rud
+">LAM",ADMIN,Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: EventCodes>>Things: EventCodes,riud
+">LAM",ADMIN,Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: Station,rud
+">LAM",ADMIN,Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: Station>>Things: Station,riud
+">LAM",ADMIN,Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: TVMEvents,rud
+">LAM",ADMIN,Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: TVMEvents>>Things: TVMEvents,riud
+">LAM",ASSOCIATE,Associate,,,>>Analytics>>Data Entry,x
+">LAM",ASSOCIATE,Associate,,,>>Analytics>>Data Entry>>Data Entry Instances,x
+">LAM",ASSOCIATE,Associate,,,">>Analytics>>Data Entry>>Data Entry Instances>>Data Entry : ""Assign/Unassign  Associate""",ru
+">LAM",ASSOCIATE,Associate,,,>>Analytics>>Reports>>Report Instances,x
+">LAM",ASSOCIATE,Associate,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> Map -> ""Station Status""",r
+">LAM",ASSOCIATE,Associate,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> Table -> ""Open Events""",r
+">LAM",ASSOCIATE,Associate,,,>>App Tabs,rx
+">LAM",ASSOCIATE,Associate,,,>>App Tabs>>Track Tab,x
+">LAM",ASSOCIATE,Associate,,,>>App Tabs>>Track Tab>>Operations Menu,x
+">LAM",ASSOCIATE,Associate,,,>>Things>>Thing Types>>Thing Type Instances,x
+">LAM",ASSOCIATE,Associate,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: EventCodes,rud
+">LAM",ASSOCIATE,Associate,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: EventCodes>>Things: EventCodes,riud
+">LAM",ASSOCIATE,Associate,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: Station,rud
+">LAM",ASSOCIATE,Associate,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: Station>>Things: Station,riud
+">LAM",ASSOCIATE,Associate,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: TVMEvents,rud
+">LAM",ASSOCIATE,Associate,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: TVMEvents>>Things: TVMEvents,riud
+">LAM",TENANTADMIN,Tenant Admin,,,>>Analytics,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Analytics>>Data Entry,rduxi
+">LAM",TENANTADMIN,Tenant Admin,,,>>Analytics>>Data Entry>>Data Entry Instances,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Analytics>>Data Entry>>Edit Own Data Entry,u
+">LAM",TENANTADMIN,Tenant Admin,,,>>Analytics>>Report Folders,rduxi
+">LAM",TENANTADMIN,Tenant Admin,,,>>Analytics>>Report Folders>>Folder Edit Own,u
+">LAM",TENANTADMIN,Tenant Admin,,,>>Analytics>>Report Folders>>Report Folder Instances,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Analytics>>Reports,rduxi
+">LAM",TENANTADMIN,Tenant Admin,,,>>Analytics>>Reports>>Edit Notebook Report,u
+">LAM",TENANTADMIN,Tenant Admin,,,>>Analytics>>Reports>>Edit Table Connection,u
+">LAM",TENANTADMIN,Tenant Admin,,,>>Analytics>>Reports>>Edit Table Script,u
+">LAM",TENANTADMIN,Tenant Admin,,,>>Analytics>>Reports>>Edit email recipients,u
+">LAM",TENANTADMIN,Tenant Admin,,,>>Analytics>>Reports>>Edit own report,u
+">LAM",TENANTADMIN,Tenant Admin,,,>>Analytics>>Reports>>Report Instances,x
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> Table Summary -> ""ViZix Events by User Time""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> Table Summary -> ""ViZix Events by User""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> Table Time Series -> ""ViZix Events""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix Indexed Reports""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix Indexes""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix Last Detect By Thing Type""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix Last Detect Monitor by Store""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix Out-of-Order""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix STARflex - Last Detect Monitor""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix STARflex - Out-of-Order by Filter""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix STARflex - Out-of-Order""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix STARflex - Upserts by Filter - E""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix STARflex - Upserts by MacId""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix Upserts E vs TB vs RP vs MI""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix Upserts MI by Source - I""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix Upserts RP by Source - E""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix Upserts RP by Source - I""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix Upserts RP by Source - MT""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""ViZix Upserts TB by Source - I""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>LAMetro -> mongo -> ""[TR] Filtered Cycle Count Process by Brand with Analytics""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> Table Summary -> ""ViZix Events by User Time""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> Table Summary -> ""ViZix Events by User""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> Table Time Series -> ""ViZix Events""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Bridge LPTs""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Bridge UpTimes""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Indexed Reports""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Indexes""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Last Detect By Thing Type""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Last Detect Monitor by Store""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Mongo Operations""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Mongo Slow Queries""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Out-of-Order""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Queues Detailed""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix STARflex - Last Detect Monitor""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix STARflex - Out-of-Order by Filter""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix STARflex - Out-of-Order""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix STARflex - Upserts by Filter - E""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix STARflex - Upserts by MacId""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Upserts E vs TB vs RP vs MI""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Upserts MI by Source - I""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Upserts RP by Source - E""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Upserts RP by Source - I""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Upserts RP by Source - MT""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,">>Analytics>>Reports>>Report Instances>>root -> mongo -> ""ViZix Upserts TB by Source - I""",rdu
+">LAM",TENANTADMIN,Tenant Admin,,,>>App Tabs,rduxi
+">LAM",TENANTADMIN,Tenant Admin,,,>>App Tabs>>Edit Own App Tabs,u
+">LAM",TENANTADMIN,Tenant Admin,,,>>App Tabs>>Toggle App Tabs,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Gateway,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Gateway>>Bridges & Rules,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Gateway>>Bridges & Rules>>Edgebox,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Gateway>>Connector,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Gateway>>Edgebox Rule,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Gateway>>Parameters,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Gateway>>Rule Set Filter,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Gateway>>Scheduled Rule,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Gateway>>Scheduled Rule>>Scheduled Rule,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Gateway>>Stream Apps,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Gateway>>Stream Apps>>Stream App,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Gateway>>Transform Rule,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Model,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Model>>Local Map,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Model>>Logical Reader,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Model>>Map Maker,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Model>>Zone,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Model>>Zone Group,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Model>>Zone Point,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Model>>Zone Type,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Security,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Security>>Password Expiration Policy,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Security>>Regenerate API key,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Services,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Services>>Connection,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Services>>Connection Type,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Services>>Data Retention Policy,rduxi
+">LAM",TENANTADMIN,Tenant Admin,,,>>Services>>Endpoints For Gateway,rduxi
+">LAM",TENANTADMIN,Tenant Admin,,,>>Services>>Endpoints For Versioning,rduxi
+">LAM",TENANTADMIN,Tenant Admin,,,>>Services>>Event Type,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Services>>Generate License,u
+">LAM",TENANTADMIN,Tenant Admin,,,>>Services>>Health & Status,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Services>>Import Export,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Services>>Logs,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Services>>REST API,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Tenants,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Tenants>>Archive,ru
+">LAM",TENANTADMIN,Tenant Admin,,,>>Tenants>>Field,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Tenants>>Group,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Tenants>>Group Type,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Tenants>>License,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Tenants>>Resource,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Tenants>>Role,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Tenants>>Shift,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Tenants>>User,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Tenants>>User Edit Roaming Group,u
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing,rduxi
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types,rduxi
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: CoreBridge,rdu
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: CoreBridge>>Things: CoreBridge,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: EdgeBridge,rdu
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: EdgeBridge>>Things: EdgeBridge,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: EventCodes,rud
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: EventCodes>>Things: EventCodes,riud
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: LAMetro TVM Event,rud
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: LAMetro TVM Event>>Things: LAMetro TVM Event,riud
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: STARflex,rdu
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: STARflex Config,rdu
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: STARflex Config>>Things: STARflex Config,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: STARflex Status,rdu
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: STARflex Status>>Things: STARflex Status,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: STARflex>>Things: STARflex,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: Station,rud
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: Station>>Things: Station,riud
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: TVMEvent,rud
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: TVMEvent>>Things: TVMEvent,riud
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: TVMEvents,rud
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: TVMEvents>>Things: TVMEvents,riud
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: ViZix Event,rdu
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: ViZix Event>>Things: ViZix Event,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: ViZix MongoDB,rdu
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: ViZix MongoDB>>Things: ViZix MongoDB,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: ViZix Services,rdu
+">LAM",TENANTADMIN,Tenant Admin,,,>>Things>>Thing Types>>Thing Type Instances>>Thing Type: ViZix Services>>Things: ViZix Services,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Workflows,x
+">LAM",TENANTADMIN,Tenant Admin,,,>>Workflows>>Process View,r
+">LAM",TENANTADMIN,Tenant Admin,,,>>Workflows>>Workflow Definition,rdui
+">LAM",TENANTADMIN,Tenant Admin,,,>>Workflows>>Workflow Participants,rdui

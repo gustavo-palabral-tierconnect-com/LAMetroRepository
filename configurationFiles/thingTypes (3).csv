@@ -1,0 +1,9 @@
+Name,Owner Group,Code,isParent,Auto Created,Thing Type Template
+EventCodes,>LAM,EVENTCODES,false,false,Custom Thing Type
+LAMetro TVM Event,>LAM,LAMETROTVMEVENT,false,false,RFID Tag
+STARflex,>LAM,FLEXTAG_CODE_DEFAULT,false,true,STARflex Tag
+STARflex Config,>LAM,STR_400_DEFAULT,false,false,
+STARflex Status,>LAM,STARFLEX_STATUS_CODE_DEFAULT,false,true,STARflex H&S
+Station,>LAM,STATION,false,false,RFID Tag
+TVMEvent,>LAM,TVMEVENT,false,true,Custom Thing Type
+TVMEvents,>LAM,TVMEVENTS,false,true,RFID Tag

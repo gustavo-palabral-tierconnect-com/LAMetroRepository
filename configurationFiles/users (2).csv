@@ -1,0 +1,4 @@
+Username,Home Group,Roaming Group,Roles,First name,Last name,Email,Password,Time Zone,Date Format,Calendar Format
+LAMAdmin,>LAM,,ADMIN,,,,,,,
+LAMAssociate,>LAM,,ASSOCIATE,,,,,,,
+LAMroot,>LAM,,TENANTADMIN,,,,,America/La_Paz,MM/DD/YYYY HH:mm:ss,MM/DD/YYYY HH:mm:ss
