@@ -95,7 +95,7 @@
     "thingTypeField" : null,
     "fieldType" : 1,
     "value" : "",
-    "operator" : "~"
+    "operator" : "="
   },
   "Thing Owner Group" : {
     "autoComplete" : false,
