@@ -9,7 +9,7 @@
   "input" : null,
   "serialExecution" : false,
   "scheduledRule" : null,
-  "sortOrder" : 5,
+  "sortOrder" : 4,
   "name" : "DispatchRemoveAssociate",
   "parameterConditionType" : "CONDITION_TYPE",
   "conditionType" : "ALWAYS_TRUE",
