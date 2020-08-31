@@ -1,0 +1,43 @@
+{
+  "serial" : {
+    "thingTypeIdReport" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "STATION"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "serial",
+    "editInline" : false,
+    "pickList" : false,
+    "defaultMobileValue" : null,
+    "allPropertyData" : false,
+    "displayOrder" : 1,
+    "thingTypeFieldId" : null,
+    "sortBy" : "",
+    "label" : "serial",
+    "reportEntryOption" : {
+      "getter" : "getByNameAndReportDefinition",
+      "innerClass" : "ReportEntryOption",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Delete"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "[DEBUG]STATIONS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "required" : false
+  }
+}
