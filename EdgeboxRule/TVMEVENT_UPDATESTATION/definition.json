@@ -9,7 +9,7 @@
   "input" : null,
   "serialExecution" : false,
   "scheduledRule" : null,
-  "sortOrder" : 4,
+  "sortOrder" : 5,
   "name" : "TVMEvent_UpdateStation",
   "parameterConditionType" : "CONDITION_TYPE",
   "conditionType" : "ALWAYS_TRUE",
